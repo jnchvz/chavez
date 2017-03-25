@@ -8,7 +8,7 @@ During the game, there will be some Zombies that will follow you and try to atta
 
 During the creation and production of the game, I found specially difficult the graphic part, because I'm not familiar with maps, sprites and tiles. I have implemented JSON to read more easily the sprites sheet, but anyway it was hard to understand because I wasn't familiarized with it at all. There's a showing bug, I'm getting a IO exception but after trying a lot, I couldn't find the solution although, the code seems to be okay.
 
-Another problem was the time. I thought I would finish the proyect before the 23 mars, but there where some things during coding the game that made me stay longer and lose time etc, for example, this report I started it willing to explain every step I did and try to make it usable for other persons in the future (if they wanted to make a RPG game too) but I lost a lot of time redacting it so I couldn't finished it as I wanted or expected to. 
+Another problem was the time. I thought I would finished the proyect before the 23 mars, but there where some things during coding the game that made me stay longer and lose time etc, for example, this report I started it willing to explain every step I did and try to make it usable for other persons in the future (if they wanted to make a RPG game too) but I lost a lot of time redacting it so I couldn't finished it as I wanted or expected to. 
 
 And also, I started coding the game in spanish as it was more easily for me at the beginning, and then I started to make the english version of it, but surprise.. the time was killing me so I couldn't finish this last version. So I tried to put somme english comments in the original spanish code.
 
