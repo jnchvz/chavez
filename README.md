@@ -23,57 +23,90 @@ I'm very happy that I had the opportunity of creating this RPG game because I th
 As the original code I wrote it in spanish, I tried to leave comments with their meaning in english. For the packages and classes inside the proyect you will find:
 
 The package principal contains: 
+
 * Gestor principal = lead manager of the game
 * ElementosPrincipales = principal elements of the game
 * Constantes = constants
 * Package control and contains:
 -GestorControles = controls manager
+
 -Raton = mouse
+
 -Tecla = key
+
 -Teclado = keyboard
 
 * Package dijkstra and contains:
+
 -Dijkstra = algorithm 
+
 -Nodo = node
 
 * Package entidades = entities and contains:
+
 -AlmacenEquipo = stockage equipment
+
 -Enemigo = enemy
+
 -Jugador = player
+
 -RegistroEnemigos = enemies register
+
 -Zombie = zombie
 
 * Package graficos = graphics and contains:
+
 -SuperficeDibujo = draw surface
 -Ventana = window
 
+
 * Package herramientas = tools and contains:
 -CalculadoraDistancia = distance calculator
+
 -CargadorRecursos = resources loader
+
 -DatosDebug = debug data information
+
 -DibujoDebug = debug draw
+
 -EscaladorElementos  = scale elements
+
 -GeneradorTooltip = tooltip generator
+
 -MedidorStrings = strings meter
 
 * Package interfaz_usuario = user interface and contains:
+
 -MenuInferior = lower menu
 
 * Package inventario = inventory and contains:
+
 -ContenedorObjetos = objects container
+
 -Inventario = inventory
+
 -Objeto = object
+
 -ObjetoUnicoTiled = unique tiled object
+
 -RegistrosObjetos = objects register
+
 -Armas package = weapons package
+
 -Consumibles package = objects you can eat package
 
 * Package mapas = maps and contains:
+
 -CapaColisiones = collisions layer
+
 -CapaSprites = sprites layer
+
 -CapaTiled = tiled layer
+
 -Mapa = map
--MapaTiled = tiled map
+
+-MapaTiled = tiled ma
+
 -Tile = tile
 
 * Package maquinaestado = state of the machine and contains:
