@@ -6,7 +6,7 @@ During the game, there will be some Zombies that will follow you and try to atta
 
 ## Principal problems
 
-During the creation and production of the game, I found specially difficult the graphic part, because I'm not familiar with maps, sprites and tiles. I have implemented JSON to read more easily the sprites sheet, but anyway it was hard to understand because I wasn't familiarized with it at all.
+During the creation and production of the game, I found specially difficult the graphic part, because I'm not familiar with maps, sprites and tiles. I have implemented JSON to read more easily the sprites sheet, but anyway it was hard to understand because I wasn't familiarized with it at all. There's a showing bug, I'm getting a IO exception but after trying a lot, I couldn't find the solution although, the code seems to be okay.
 
 Another problem was the time. I thought I would finish the proyect before the 23 mars, but there where some things during coding the game that made me stay longer and lose time etc, for example, this report I started it willing to explain every step I did and try to make it usable for other persons in the future (if they wanted to make a RPG game too) but I lost a lot of time redacting it so I couldn't finished it as I wanted or expected to. 
 
@@ -22,18 +22,76 @@ I'm very happy that I had the opportunity of creating this RPG game because I th
 
 As the original code I wrote it in spanish, I tried to leave comments with their meaning in english. For the packages and classes inside the proyect you will find:
 
-* Package control and conteins:
--
-* Package dijkstra
-* Package entidades = entities
-* Package graficos = graphics
-* Package herramientas = tools
-* Package interfaz_usuario = user interface
-* Package inventario = inventory
-* Package mapas = maps
-* Package maquinaestado = state of the machine
-* Package sonidos = sounds
-* Package sprites
+The package principal contains: 
+* Gestor principal = lead manager of the game
+* ElementosPrincipales = principal elements of the game
+* Constantes = constants
+* Package control and contains:
+-GestorControles = controls manager
+-Raton = mouse
+-Tecla = key
+-Teclado = keyboard
+
+* Package dijkstra and contains:
+-Dijkstra = algorithm 
+-Nodo = node
+
+* Package entidades = entities and contains:
+-AlmacenEquipo = stockage equipment
+-Enemigo = enemy
+-Jugador = player
+-RegistroEnemigos = enemies register
+-Zombie = zombie
+
+* Package graficos = graphics and contains:
+-SuperficeDibujo = draw surface
+-Ventana = window
+
+* Package herramientas = tools and contains:
+-CalculadoraDistancia = distance calculator
+-CargadorRecursos = resources loader
+-DatosDebug = debug data information
+-DibujoDebug = debug draw
+-EscaladorElementos  = scale elements
+-GeneradorTooltip = tooltip generator
+-MedidorStrings = strings meter
+
+* Package interfaz_usuario = user interface and contains:
+-MenuInferior = lower menu
+
+* Package inventario = inventory and contains:
+-ContenedorObjetos = objects container
+-Inventario = inventory
+-Objeto = object
+-ObjetoUnicoTiled = unique tiled object
+-RegistrosObjetos = objects register
+-Armas package = weapons package
+-Consumibles package = objects you can eat package
+
+* Package mapas = maps and contains:
+-CapaColisiones = collisions layer
+-CapaSprites = sprites layer
+-CapaTiled = tiled layer
+-Mapa = map
+-MapaTiled = tiled map
+-Tile = tile
+
+* Package maquinaestado = state of the machine and contains:
+-Estadojuego = game state or status
+-GestorEstados = states manager
+-Estados package = states or status package and contains:
+ -GestorJuego = game manager
+ -EstructuraMenu = menu structure
+ -MenuEquipo = menu equipment 
+ -MenuInventario = inventory menu
+ -SeccionMenu = menu section
+
+* Package sonidos = sounds and contains:
+-Sonido = sound
+
+* Package sprites and contains:
+-HojaSprites = sprites sheet
+-Sprite = sprite
 
 # Making the RPG Game: 
 
