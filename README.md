@@ -27,7 +27,9 @@ The package principal contains:
 * Gestor principal = lead manager of the game
 * ElementosPrincipales = principal elements of the game
 * Constantes = constants
+
 * Package control and contains:
+
 -GestorControles = controls manager
 
 -Raton = mouse
@@ -36,11 +38,13 @@ The package principal contains:
 
 -Teclado = keyboard
 
+
 * Package dijkstra and contains:
 
 -Dijkstra = algorithm 
 
 -Nodo = node
+
 
 * Package entidades = entities and contains:
 
@@ -54,13 +58,16 @@ The package principal contains:
 
 -Zombie = zombie
 
+
 * Package graficos = graphics and contains:
 
 -SuperficeDibujo = draw surface
+
 -Ventana = window
 
 
 * Package herramientas = tools and contains:
+
 -CalculadoraDistancia = distance calculator
 
 -CargadorRecursos = resources loader
@@ -75,9 +82,11 @@ The package principal contains:
 
 -MedidorStrings = strings meter
 
+
 * Package interfaz_usuario = user interface and contains:
 
 -MenuInferior = lower menu
+
 
 * Package inventario = inventory and contains:
 
@@ -95,6 +104,7 @@ The package principal contains:
 
 -Consumibles package = objects you can eat package
 
+
 * Package mapas = maps and contains:
 
 -CapaColisiones = collisions layer
@@ -109,21 +119,34 @@ The package principal contains:
 
 -Tile = tile
 
+
 * Package maquinaestado = state of the machine and contains:
+
 -Estadojuego = game state or status
+
 -GestorEstados = states manager
+
 -Estados package = states or status package and contains:
+
  -GestorJuego = game manager
+ 
  -EstructuraMenu = menu structure
- -MenuEquipo = menu equipment 
+ 
+ -MenuEquipo = menu equipment
+ 
  -MenuInventario = inventory menu
+ 
  -SeccionMenu = menu section
 
+
 * Package sonidos = sounds and contains:
+
 -Sonido = sound
 
 * Package sprites and contains:
+
 -HojaSprites = sprites sheet
+
 -Sprite = sprite
 
 # Making the RPG Game: 
